@@ -5,23 +5,21 @@
   background-position: center;
 }
 
-.simple-slider .swiper-button-next,
-.simple-slider .swiper-button-prev {
+.simple-slider .swiper-button-next, .simple-slider .swiper-button-prev {
   width: 50px;
   margin-left: 20px;
   margin-right: 20px;
 }
 
-@media (max-width: 767px) {
-
-  .simple-slider .swiper-button-next,
-  .simple-slider .swiper-button-prev {
+@media (max-width:767px) {
+  .simple-slider .swiper-button-next, .simple-slider .swiper-button-prev {
     display: none;
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width:767px) {
   .simple-slider .swiper-slide {
     height: 360px;
   }
 }
+
